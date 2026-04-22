@@ -24,7 +24,7 @@ kubectl apply -f service.yaml
 User → NodePort → Kubernetes Service → Pod → Container
 
 ## 📸 Application Output
-![2048 Game](<img width="1896" height="971" alt="Screenshot 2026-04-22 213431" src="https://github.com/user-attachments/assets/cba06d25-f15d-4cbd-9066-d8902ed4c8f7" />
+(<img width="1896" height="971" alt="Screenshot 2026-04-22 213431" src="https://github.com/user-attachments/assets/cba06d25-f15d-4cbd-9066-d8902ed4c8f7" />
 )
 
 ## ⚠️ Challenges Faced
