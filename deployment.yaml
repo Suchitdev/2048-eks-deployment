@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: game-2048
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: game-2048
+  template:
+    metadata:
+      labels:
+        app: game-2048
+    spec:
+      containers:
+      - name: game-2048
+        image: suchit10/2048:v1
+        resources:
+          requests:
+            cpu: "10m"
+            memory: "32Mi"
+          limits:
+            cpu: "50m"
+            memory: "64Mi"
+        ports:
+        - containerPort: 80
